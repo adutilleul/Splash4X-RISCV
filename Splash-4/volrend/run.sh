@@ -37,15 +37,15 @@ fi
 #Determine program name, file names & arguments
 case "${INPUTSIZE}" in 
 "test"	) 
-	PROGARGS="${NUMPROCS} head-scaleddown4 4";;
+	PROGARGS="${NUMPROCS} inputs/head-scaleddown4 4";;
 "simdev"	) 
-	PROGARGS="${NUMPROCS} head-scaleddown4 4";;
+	PROGARGS="${NUMPROCS} inputs/head-scaleddown4 4";;
 "simsmall"	) 
-	PROGARGS="${NUMPROCS} head-scaleddown4 20";;
+	PROGARGS="${NUMPROCS} inputs/head-scaleddown4 20";;
 "simmedium"	) 
-	PROGARGS="${NUMPROCS} head-scaleddown2 50";;
+	PROGARGS="${NUMPROCS} inputs/head-scaleddown2 50";;
 "simlarge"	) 
-	PROGARGS="${NUMPROCS} head-scaleddown2 100";;
+	PROGARGS="${NUMPROCS} inputs/head-scaleddown2 100";;
 "native"	) 
 	PROGARGS="${NUMPROCS} head 1000";;
 *)  
