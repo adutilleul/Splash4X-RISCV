@@ -37,17 +37,17 @@ fi
 #Determine program name, file names & arguments
 case "${INPUTSIZE}" in 
 "test"	) 
-	PROGARGS="-s -p$NUMPROCS -a4 teapot.env";;
+	PROGARGS="-s -p$NUMPROCS -a4 inputs/teapot.env";;
 "simdev"	) 
-	PROGARGS="-s -p$NUMPROCS -a4 teapot.env";;
+	PROGARGS="-s -p$NUMPROCS -a4 inputs/teapot.env";;
 "simsmall"	) 
-	PROGARGS="-s -p$NUMPROCS -a8 teapot.env";;
+	PROGARGS="-s -p$NUMPROCS -a8 inputs/teapot.env";;
 "simmedium"	) 
-	PROGARGS="-s -p$NUMPROCS -a2 balls4.env";;
+	PROGARGS="-s -p$NUMPROCS -a2 inputs/balls4.env";;
 "simlarge"	) 
-	PROGARGS="-s -p$NUMPROCS -a8 balls4.env";;
+	PROGARGS="-s -p$NUMPROCS -a8 inputs/balls4.env";;
 "native"	) 
-	PROGARGS="-s -p$NUMPROCS -a128 car.env";;
+	PROGARGS="-s -p$NUMPROCS -a128 inputs/car.env";;
 *)  
 	echo "Input size error"
 	exit 1;;
