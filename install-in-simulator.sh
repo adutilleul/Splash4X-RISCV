@@ -63,11 +63,13 @@ cp -R $BUILD_DIR/volrend/inputs $INSTALL_DIR_ROOT/volrend/inputs
 mkdir -p $INSTALL_DIR_ROOT/water_nsquared
 cp $BUILD_DIR/water_nsquared/WATER-NSQUARED $INSTALL_DIR_ROOT/water_nsquared/WATER-NSQUARED
 cp $BUILD_DIR/water_nsquared/run.sh $INSTALL_DIR_ROOT/water_nsquared/run.sh
+cp $BUILD_DIR/water_nsquared/inputs/random.in $INSTALL_DIR_ROOT/water_nsquared/random.in
 cp -R $BUILD_DIR/water_nsquared/inputs $INSTALL_DIR_ROOT/water_nsquared
 
 mkdir -p $INSTALL_DIR_ROOT/water_spatial
 cp $BUILD_DIR/water_spatial/WATER-SPATIAL $INSTALL_DIR_ROOT/water_spatial/WATER-SPATIAL
 cp $BUILD_DIR/water_spatial/run.sh $INSTALL_DIR_ROOT/water_spatial/run.sh
+cp $BUILD_DIR/water_spatial/inputs/random.in $INSTALL_DIR_ROOT/water_spatial/random.in
 cp -R $BUILD_DIR/water_spatial/inputs $INSTALL_DIR_ROOT/water_spatial
 
 touch $INSTALL_DIR
