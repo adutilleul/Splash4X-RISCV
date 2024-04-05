@@ -11,7 +11,7 @@
 #
 
 #Some default values
-TARGET=cholesky
+TARGET=CHOLESKY
 
 #Arguments
 if [ -n "$1" ]
@@ -37,24 +37,24 @@ fi
 #Determine program name, file names & arguments
 case "${INPUTSIZE}" in 
 "test"	) 
-	INPUTFILE="tk14.O";;
+	INPUTFILE="inputs/tk14.O";;
 "simdev"	) 
-	INPUTFILE="tk14.O";;
+	INPUTFILE="inputs/tk14.O";;
 "simsmall"	) 
-	INPUTFILE="tk29.O";;
+	INPUTFILE="inputs/tk29.O";;
 "simmedium"	) 
-	INPUTFILE="tk29.O";;
+	INPUTFILE="inputs/tk29.O";;
 "simlarge"	) 
-	INPUTFILE="tk29.O";;
+	INPUTFILE="inputs/tk29.O";;
 "native"	) 
-	INPUTFILE="tk29.O";;
+	INPUTFILE="inputs/tk29.O";;
 *)  
 	echo "Input size error"
 	exit 1;;
 esac
  
 PROGARGS="-p${NUMPROCS} < ${INPUTFILE}"
-PROG="${TARGET}"
+PROG="./${TARGET}"
 
 
 #Some tests

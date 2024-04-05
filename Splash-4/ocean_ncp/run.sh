@@ -11,7 +11,7 @@
 #
 
 #Some default values
-TARGET=ocean_ncp
+TARGET=OCEAN-NOCONT
 
 #Arguments
 if [ -n "$1" ]
@@ -54,7 +54,7 @@ case "${INPUTSIZE}" in
 esac
  
 
-PROG="${TARGET}"
+PROG="./${TARGET}"
 
 
 #Some tests

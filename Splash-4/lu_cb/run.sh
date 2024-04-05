@@ -11,7 +11,7 @@
 #
 
 #Some default values
-TARGET=lu_cb
+TARGET=LU-CONT
 
 #Arguments
 if [ -n "$1" ]
@@ -53,7 +53,7 @@ case "${INPUTSIZE}" in
 	exit 1;;
 esac
  
-PROG="${TARGET}"
+PROG="./${TARGET}"
 
 
 #Some tests

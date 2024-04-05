@@ -11,7 +11,7 @@
 #
 
 #Some default values
-TARGET=water_spatial
+TARGET=WATER-SPATIAL
 
 #Arguments
 if [ -n "$1" ]
@@ -35,10 +35,10 @@ fi
 
 
 #Determine program name, file names & arguments
-INPUTFILE="input_${NUMPROCS}"
-INPUTTEMPLATE="input.template"
+INPUTFILE="inputs/input_${NUMPROCS}"
+INPUTTEMPLATE="inputs/input.template"
 PROGARGS=" ${INPUTFILE}"
-PROG="${TARGET}"
+PROG="./${TARGET}"
 
 
 #Some tests

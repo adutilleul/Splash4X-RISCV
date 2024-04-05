@@ -11,7 +11,7 @@
 #
 
 #Some default values
-TARGET=barnes
+TARGET=BARNES
 
 #Arguments
 if [ -n "$1" ]
@@ -36,10 +36,10 @@ fi
 
 #Determine program name, file names & arguments
 
-INPUTTEMPLATE="input.template"
-INPUTFILE="dummy-p2"
+INPUTTEMPLATE="inputs/input.template"
+INPUTFILE="inputs/dummy-p2"
 PROGARGS=" < ${INPUTFILE}"
-PROG="${TARGET}"
+PROG="./${TARGET}"
 
 
 #Some tests

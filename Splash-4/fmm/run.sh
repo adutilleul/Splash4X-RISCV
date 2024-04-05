@@ -11,7 +11,7 @@
 #
 
 #Some default values
-TARGET=fmm
+TARGET=FMM
 
 #Arguments
 if [ -n "$1" ]
@@ -36,10 +36,10 @@ fi
 
 #Determine program name, file names & arguments
 
-INPUTTEMPLATE="input.template"
-INPUTFILE="input_${NUMPROCS}"
+INPUTTEMPLATE="inputs/input.template"
+INPUTFILE="inputs/input_${NUMPROCS}"
 PROGARGS=" ${INPUTFILE}"
-PROG="${TARGET}"
+PROG="./${TARGET}"
 
 
 #Some tests

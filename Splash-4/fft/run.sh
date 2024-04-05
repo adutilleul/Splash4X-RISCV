@@ -11,7 +11,7 @@
 #
 
 #Some default values
-TARGET=fft
+TARGET=FFT
 
 #Arguments
 if [ -n "$1" ]
@@ -55,7 +55,7 @@ esac
  
 
 
-PROG="${TARGET}"
+PROG="./${TARGET}"
 
 
 #Some tests
