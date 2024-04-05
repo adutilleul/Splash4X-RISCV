@@ -1,0 +1,41 @@
+
+FFT with Blocking Transpose
+   1024 Complex Doubles
+   1 Processors
+   65536 Cache lines
+   16 Byte line size
+   4096 Bytes per page
+
+RMS_Initial_Barrier : (nil) (nil) (nil) on thread 128307062073152
+RMS_Initial_Barrier : 0x589ad9ab92f8 0x589ad9ab9328 0x589ad9ab92d0 on thread 128307060278976
+RMS_Initial_Barrier : 0x589ad9ab92f8 0x589ad9ab9328 0x589ad9ab92d0 on thread 128307060278976
+iter_num = 32
+RMS_Initial_Barrier : 0x589ad9ab92f8 0x589ad9ab9328 0x589ad9ab92d0 on thread 128307060278976
+Transpose: iter_num = 0
+Step 1:       11
+FFt1DOnce: iter_num = 80
+RMS_Initial_Barrier : 0x589ad9ab92f8 0x589ad9ab9328 0x589ad9ab92d0 on thread 128307060278976
+Step 2:       11
+Transpose: iter_num = 0
+Step 3:        1
+RMS_Initial_Barrier : 0x589ad9ab92f8 0x589ad9ab9328 0x589ad9ab92d0 on thread 128307060278976
+Step 4:        9
+Transpose: iter_num = 0
+Step 5:        1
+RMS_Initial_Barrier : 0x589ad9ab92f8 0x589ad9ab9328 0x589ad9ab92d0 on thread 128307060278976
+RMS_Initial_Barrier : 0x589ad9ab92f8 0x589ad9ab9328 0x589ad9ab92d0 on thread 128307060278976
+
+                 PROCESS STATISTICS
+            Computation      Transpose     Transpose
+ Proc          Time            Time        Fraction
+    0                33             13       0.39394
+
+                 TIMING INFORMATION
+Start time                        : 1712151778103316
+Initialization finish time        : 1712151778103587
+Overall finish time               : 1712151778103620
+Total time with initialization    :              304
+Total time without initialization :               33
+Overall transpose time            :               13
+Overall transpose fraction        :          0.39394
+

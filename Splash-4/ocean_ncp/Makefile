@@ -1,0 +1,12 @@
+TARGET = OCEAN-NOCONT
+OBJS = jacobcalc.o laplacalc.o main.o multi.o slave1.o slave2.o ../../inst/hook.c
+
+include ../../Makefile.RISCV.config
+
+decs.h: decs.h.in ../../inst/hook.c
+jacobcalc.c: decs.h ../../inst/hook.c
+main.c: decs.h ../../inst/hook.c
+slave1.c: decs.h ../../inst/hook.c
+laplacalc.c: decs.h ../../inst/hook.c
+multi.c : decs.h ../../inst/hook.c
+slave2.c: decs.h ../../inst/hook.c
