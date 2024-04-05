@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BUILD_DIR=/mnt/Murcia/Internship/Splash-4/Splash-4-adapt
+BUILD_DIR=Splash-4
 INSTALL_DIR=/mnt/Murcia/Internship/riscv-rss-sdk-stripped-v2/build/buildroot_initramfs_sysroot
 INSTALL_DIR_ROOT=/mnt/Murcia/Internship/riscv-rss-sdk-stripped-v2/build/buildroot_initramfs_sysroot/root
 
