@@ -37,7 +37,7 @@ fi
 #Determine program name, file names & arguments
 INPUTFILE="inputs/input_${NUMPROCS}"
 INPUTTEMPLATE="inputs/input.template"
-PROGARGS=" ${INPUTFILE}"
+PROGARGS=" < ${INPUTFILE}"
 PROG="./${TARGET}"
 
 
