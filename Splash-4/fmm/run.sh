@@ -38,7 +38,7 @@ fi
 
 INPUTTEMPLATE="inputs/input.template"
 INPUTFILE="inputs/input_${NUMPROCS}"
-PROGARGS=" ${INPUTFILE}"
+PROGARGS="< ${INPUTFILE}"
 PROG="./${TARGET}"
 
 

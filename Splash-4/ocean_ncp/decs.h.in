@@ -20,8 +20,8 @@
 #define IMAX         2050
 #define JMAX         2050
 #else
-#define IMAX         8098
-#define JMAX         8098
+#define IMAX         8098 / 8
+#define JMAX         8098 / 8
 #endif
 #define MASTER          0
 #define RED_ITER        0

@@ -37,7 +37,7 @@ fi
 #Determine program name, file names & arguments
 
 INPUTTEMPLATE="inputs/input.template"
-INPUTFILE="inputs/dummy-p2"
+INPUTFILE="inputs/input_${NUMPROCS}"
 PROGARGS=" < ${INPUTFILE}"
 PROG="./${TARGET}"
 
@@ -51,8 +51,8 @@ fi
 
 
 # #Execution
-# echo Generating input file ${INPUTFILE}...
-# cat ${INPUTTEMPLATE} | sed s/NUMPROCS/$NUMPROCS/ > ${INPUTFILE}
+echo Generating input file ${INPUTFILE}...
+cat ${INPUTTEMPLATE} | sed s/NUMPROCS/$NUMPROCS/ > ${INPUTFILE}
 
 RUN="$PROG $PROGARGS"
 
