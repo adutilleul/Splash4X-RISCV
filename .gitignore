@@ -10,7 +10,9 @@
 
 # Sources are in .in files, so exclude generated .c and .h files
 *.c
+!inst/*.c
 *.h
+!inst/*.h
 
 # Keep libraries .c and .h
 ! Splash-4/radiosity/glibps/*.c
