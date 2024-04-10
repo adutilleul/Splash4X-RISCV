@@ -8,10 +8,6 @@
 # Keep .in files
 ! *.in
 
-# Keep libraries .c and .h
-
-
-
 # Sources are in .in files, so exclude generated .c and .h files
 *.c
 *.h
@@ -46,7 +42,6 @@ Splash-4/water_spatial/WATER-SPATIAL
 *.geo
 *.O
 *.env
-*.in
 *.norm
 *.opc
 *.den
