@@ -10,6 +10,8 @@
 # ./run.sh [ARCH [PARTYPE [NUMPROCS]]]]
 #
 
+cd $(dirname $0)
+
 #Some default values
 TARGET=RAYTRACE
 

@@ -10,6 +10,8 @@
 # ./run.sh [NUMPROCS]
 #
 
+cd $(dirname $0)
+
 #Some default values
 TARGET=BARNES
 
