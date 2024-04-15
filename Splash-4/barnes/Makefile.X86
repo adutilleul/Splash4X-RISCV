@@ -1,0 +1,14 @@
+TARGET = BARNES
+OBJS = code.o code_io.o load.o grav.o getparam.o util.o ../../inst/hook.c
+
+include ../../Makefile.X86.config
+
+
+stdinc.h: code.h defs.h util.h vectmath.h load.h code_io.h grav.h getparam.h stdinc.h.in ../../inst/hook.c
+code.o: code.c.in stdinc.h ../../inst/hook.c
+code_io.o: code_io.c.in stdinc.h ../../inst/hook.c
+getparam.o: getparam.c.in stdinc.h ../../inst/hook.c
+grav.o: grav.c.in stdinc.h ../../inst/hook.c
+load.o: load.c.in stdinc.h ../../inst/hook.c
+util.o: util.c.in stdinc.h ../../inst/hook.c
+

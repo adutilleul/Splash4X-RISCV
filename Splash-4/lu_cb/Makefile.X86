@@ -1,0 +1,4 @@
+TARGET = LU-CONT
+OBJS = lu.o ../../inst/hook.c
+
+include ../../Makefile.X86.config

@@ -6,7 +6,7 @@
 OBJS   = glib.o
 TARGET = glib.a
 
-include ../../../Makefile.RISCV.NOPGO.config
+include ../../../Makefile.X86.config
 
 $(TARGET): $(OBJS)
 	ar crv $(TARGET) $(OBJS)

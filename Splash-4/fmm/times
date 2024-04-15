@@ -1,28 +1,88 @@
 TIMING:
-2	256	1.00e-06	5
+8	16384	1.00e-06	5
 Time Step 0
 Processor 0
-	Total Time = 21167
+	Total Time = 23757
 Processor 1
-	Total Time = 21322
+	Total Time = 23624
+Processor 2
+	Total Time = 23690
+Processor 3
+	Total Time = 23813
+Processor 4
+	Total Time = 25363
+Processor 5
+	Total Time = 25337
+Processor 6
+	Total Time = 24796
+Processor 7
+	Total Time = 23641
 Time Step 1
 Processor 0
-	Total Time = 36036
+	Total Time = 36593
 Processor 1
-	Total Time = 30771
+	Total Time = 48355
+Processor 2
+	Total Time = 43653
+Processor 3
+	Total Time = 43276
+Processor 4
+	Total Time = 41792
+Processor 5
+	Total Time = 41839
+Processor 6
+	Total Time = 42353
+Processor 7
+	Total Time = 36729
 Time Step 2
 Processor 0
-	Total Time = 27663
+	Total Time = 71843
 Processor 1
-	Total Time = 30866
+	Total Time = 60097
+Processor 2
+	Total Time = 64797
+Processor 3
+	Total Time = 65334
+Processor 4
+	Total Time = 65996
+Processor 5
+	Total Time = 74791
+Processor 6
+	Total Time = 65981
+Processor 7
+	Total Time = 71126
 Time Step 3
 Processor 0
-	Total Time = 45830
+	Total Time = 70025
 Processor 1
-	Total Time = 45046
+	Total Time = 75220
+Processor 2
+	Total Time = 75266
+Processor 3
+	Total Time = 74948
+Processor 4
+	Total Time = 73498
+Processor 5
+	Total Time = 64929
+Processor 6
+	Total Time = 74121
+Processor 7
+	Total Time = 64135
 Time Step 4
 Processor 0
-	Total Time = 22869
+	Total Time = 53132
 Processor 1
-	Total Time = 18154
+	Total Time = 48242
+Processor 2
+	Total Time = 48003
+Processor 3
+	Total Time = 51974
+Processor 4
+	Total Time = 52591
+Processor 5
+	Total Time = 52424
+Processor 6
+	Total Time = 48543
+Processor 7
+	Total Time = 59473
 END

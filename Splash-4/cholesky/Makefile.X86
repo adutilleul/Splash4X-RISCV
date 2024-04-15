@@ -1,0 +1,21 @@
+TARGET = CHOLESKY
+OBJS = amal.o assign.o bfac.o bksolve.o block2.o fo.o malloc.o \
+       mf.o numLL.o parts.o seg.o solve.o tree.o util.o ../../inst/hook.c
+
+include ../../Makefile.X86.config
+
+
+amal.c: matrix.h ../../inst/hook.c
+block2.c: matrix.h ../../inst/hook.c
+numLL.c: matrix.h ../../inst/hook.c
+tree.c: matrix.h ../../inst/hook.c
+assign.c: matrix.h ../../inst/hook.c
+fo.c: matrix.h ../../inst/hook.c
+parts.c: matrix.h ../../inst/hook.c
+util.c: matrix.h ../../inst/hook.c
+bfac.c: matrix.h ../../inst/hook.c
+malloc.c: matrix.h ../../inst/hook.c
+seg.c: matrix.h ../../inst/hook.c
+bksolve.c: matrix.h ../../inst/hook.c
+mf.c: matrix.h ../../inst/hook.c
+solve.c: matrix.h ../../inst/hook.c

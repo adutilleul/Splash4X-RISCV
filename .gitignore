@@ -39,3 +39,5 @@ Splash-4/water_nsquared/WATER-NSQUARED
 Splash-4/water_spatial/WATER-SPATIAL
 
 *.log
+*.profraw
+*.profdata

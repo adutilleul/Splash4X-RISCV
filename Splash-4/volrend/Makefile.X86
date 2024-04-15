@@ -1,0 +1,24 @@
+TARGET = VOLREND
+OBJS = adaptive.o file.o main.o map.o normal.o octree.o opacity.o option.o raytrace.o render.o view.o libtiff-x86/libtiff.a ../../inst/hook.c
+
+include ../../Makefile.X86.config
+
+CFLAGS := $(CFLAGS) -I./libtiff-x86
+LDFLAGS := -static -L./libtiff-x86 $(LDFLAGS) -ltiff
+
+main.c:	main.c.in incl.h anl.h ../../inst/hook.c
+file.c:	file.c.in incl.h ../../inst/hook.c
+option.c: option.c.in incl.h ../../inst/hook.c
+map.c: map.c.in incl.h ../../inst/hook.c
+normal.c: normal.c.in incl.h anl.h address.h ../../inst/hook.c
+opacity.c: opacity.c.in incl.h anl.h ../../inst/hook.c
+octree.c: octree.c.in incl.h anl.h ../../inst/hook.c
+view.c:	view.c.in incl.h ../../inst/hook.c
+render.c: render.c.in incl.h ../../inst/hook.c
+adaptive.c: adaptive.c.in incl.h anl.h ../../inst/hook.c
+raytrace.c: raytrace.c.in incl.h address.h ../../inst/hook.c
+
+incl.h:	user_options.h const.h my_types.h global.h macros.h address.h ../../inst/hook.c
+
+libtiff-x86/libtiff.a:
+	make -C libtiff-x86

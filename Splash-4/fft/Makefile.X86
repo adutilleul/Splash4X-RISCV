@@ -1,0 +1,4 @@
+TARGET = FFT
+OBJS = fft.o ../../inst/hook.c
+
+include ../../Makefile.X86.config

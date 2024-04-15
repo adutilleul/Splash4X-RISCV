@@ -1,7 +1,7 @@
 TARGET = rltotiff
 OBJS   = rltotiff.o tiff_rgba_io.o
 
-include ../../../Makefile.RISCV.config
+include ../../../Makefile.RISCV.NOPGO.config
 
 LDFLAGS := $(LDFLAGS) -ltiff
 

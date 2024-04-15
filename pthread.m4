@@ -165,12 +165,16 @@ m4_define(PAUSEINIT, `{
 }
 ')
 m4_define(CLEARPAUSE, `{
+	PThread_Begin_Zone();
 	$1.Flag = 0;
 	RMS_Initial_Release(&(($1).Mutex));
 	pthread_mutex_unlock(&$1.Mutex);
-	RMS_Final_Release();}
+	RMS_Final_Release();
+	PThread_End_Zone();
+	}
 ')
 m4_define(SETPAUSE, `{
+	PThread_Begin_Zone();
 	RMS_Initial_Acq(&(($1).Mutex));
 	pthread_mutex_lock(&$1.Mutex);
 	RMS_Final_Acq();
@@ -180,10 +184,13 @@ m4_define(SETPAUSE, `{
 	RMS_Final_CondBroadcast();
 	RMS_Initial_Release(&(($1).Mutex));
 	pthread_mutex_unlock(&$1.Mutex);
-	RMS_Final_Release();}
+	RMS_Final_Release();
+	PThread_End_Zone();
+	}
 ')
 m4_define(EVENT, `{;}')
 m4_define(WAITPAUSE, `{
+	PThread_Begin_Zone();
 	RMS_Initial_Acq(&(($1).Mutex));
 	pthread_mutex_lock(&$1.Mutex);
 	RMS_Final_Acq();
@@ -192,6 +199,7 @@ m4_define(WAITPAUSE, `{
 		pthread_cond_wait(&$1.CondVar, &$1.Mutex);
 		RMS_Final_CondWait();
 	}
+	PThread_End_Zone();
 }')
 m4_define(PAUSE, `{;}')
 
