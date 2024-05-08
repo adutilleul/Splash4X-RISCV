@@ -2,87 +2,87 @@ TIMING:
 8	16384	1.00e-06	5
 Time Step 0
 Processor 0
-	Total Time = 23757
+	Total Time = 53046
 Processor 1
-	Total Time = 23624
+	Total Time = 48545
 Processor 2
-	Total Time = 23690
+	Total Time = 48965
 Processor 3
-	Total Time = 23813
+	Total Time = 46578
 Processor 4
-	Total Time = 25363
+	Total Time = 56738
 Processor 5
-	Total Time = 25337
+	Total Time = 52072
 Processor 6
-	Total Time = 24796
+	Total Time = 55359
 Processor 7
-	Total Time = 23641
+	Total Time = 53387
 Time Step 1
 Processor 0
-	Total Time = 36593
+	Total Time = 45792
 Processor 1
-	Total Time = 48355
+	Total Time = 45667
 Processor 2
-	Total Time = 43653
+	Total Time = 47392
 Processor 3
-	Total Time = 43276
+	Total Time = 52114
 Processor 4
-	Total Time = 41792
+	Total Time = 43121
 Processor 5
-	Total Time = 41839
+	Total Time = 44317
 Processor 6
-	Total Time = 42353
+	Total Time = 44060
 Processor 7
-	Total Time = 36729
+	Total Time = 44965
 Time Step 2
 Processor 0
-	Total Time = 71843
+	Total Time = 35771
 Processor 1
-	Total Time = 60097
+	Total Time = 36117
 Processor 2
-	Total Time = 64797
+	Total Time = 35952
 Processor 3
-	Total Time = 65334
+	Total Time = 33723
 Processor 4
-	Total Time = 65996
+	Total Time = 36640
 Processor 5
-	Total Time = 74791
+	Total Time = 34463
 Processor 6
-	Total Time = 65981
+	Total Time = 33845
 Processor 7
-	Total Time = 71126
+	Total Time = 35157
 Time Step 3
 Processor 0
-	Total Time = 70025
+	Total Time = 38137
 Processor 1
-	Total Time = 75220
+	Total Time = 39049
 Processor 2
-	Total Time = 75266
+	Total Time = 38542
 Processor 3
-	Total Time = 74948
+	Total Time = 38412
 Processor 4
-	Total Time = 73498
+	Total Time = 31234
 Processor 5
-	Total Time = 64929
+	Total Time = 36761
 Processor 6
-	Total Time = 74121
+	Total Time = 40582
 Processor 7
-	Total Time = 64135
+	Total Time = 39374
 Time Step 4
 Processor 0
-	Total Time = 53132
+	Total Time = 37092
 Processor 1
-	Total Time = 48242
+	Total Time = 36428
 Processor 2
-	Total Time = 48003
+	Total Time = 38196
 Processor 3
-	Total Time = 51974
+	Total Time = 43190
 Processor 4
-	Total Time = 52591
+	Total Time = 46995
 Processor 5
-	Total Time = 52424
+	Total Time = 41459
 Processor 6
-	Total Time = 48543
+	Total Time = 35415
 Processor 7
-	Total Time = 59473
+	Total Time = 34277
 END

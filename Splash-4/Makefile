@@ -15,6 +15,7 @@ atomicBarriersBindThreads: $(DIRS)
 $(DIRS):
 	+$(MAKE) -f Makefile.X86 -C $@ $(MAKECMDGOALS)
 	$@/run.sh $(NUM_CORES) $(DATA_SIZE)
+	+$(MAKE) -C $@ clean
 	llvm-profdata merge $@/*.profraw -output=$@/code.profdata
 	+$(MAKE) -C $@ $(MAKECMDGOALS)
 
