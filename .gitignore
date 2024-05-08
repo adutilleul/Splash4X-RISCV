@@ -38,6 +38,11 @@ Splash-4/volrend/VOLREND
 Splash-4/water_nsquared/WATER-NSQUARED
 Splash-4/water_spatial/WATER-SPATIAL
 
+
+Splash-4/fmm/times
+Splash-4/raytrace/inputs/teapot.rl
+
 *.log
 *.profraw
 *.profdata
+*.stats
